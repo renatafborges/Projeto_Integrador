@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProjetoIntegrador</string>
+    <string name="movie_genre">Accion</string>
+    <string name="movie_search">Search for movie...</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="all_movies">All Movies</string>
+    <string name="favorite_movies">Favorite</string>
+    <string name="search_button">Search Button</string>
+    <string name="movie_rating">81%</string>
+    <string name="overview">Overview</string>
+    <string name="user_score">User Score</string>
+    <string name="movie_duration">2h 45min</string>
+    <string name="movie_overview">Evan McCauley has skills he never learned and memories of places he has never visited. Self-medicated and on the brink of a mental breakdown, a secret group that call themselves “Infinites” come to his rescue, revealing that his memories are real.</string>
+    <string name="movie_cast">Cast</string>
+    <string name="movie_release">2019</string>
+    <string name="parents_strongly_cautioned">PG-13</string>
+</resources>

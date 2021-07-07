@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgMovie"
+            android:layout_width="260dp"
+            android:layout_height="390dp"
+            android:src=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/titleMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/movie_title"
+        android:textColor="@color/clickedButtonColor"
+        android:textSize="@dimen/large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/cvImage"
+        app:layout_constraintStart_toStartOf="@+id/cvImage"
+        app:layout_constraintTop_toBottomOf="@+id/cvImage"/>
+
+    <ImageView
+        android:id="@+id/notFavIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small"
+        android:src="@drawable/ic_baseline_favorite_border_24"
+        app:layout_constraintBottom_toBottomOf="@+id/titleMovie"
+        app:layout_constraintStart_toEndOf="@+id/titleMovie"
+        app:layout_constraintTop_toTopOf="@+id/titleMovie" />
+
+    <ImageView
+        android:id="@+id/favIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_baseline_favorite_24"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/titleMovie"
+        app:layout_constraintStart_toEndOf="@+id/titleMovie"
+        app:layout_constraintTop_toTopOf="@+id/titleMovie" />
+
+    <TextView
+        android:id="@+id/txtRateMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imgStar"
+        app:layout_constraintTop_toTopOf="@id/imgStar"
+        android:text="@string/movie_rating" />
+
+    <ImageView
+        android:id="@+id/imgStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_star_24"
+        app:layout_constraintEnd_toEndOf="@+id/titleMovie"
+        app:layout_constraintStart_toStartOf="@+id/titleMovie"
+        app:layout_constraintTop_toBottomOf="@+id/titleMovie" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
