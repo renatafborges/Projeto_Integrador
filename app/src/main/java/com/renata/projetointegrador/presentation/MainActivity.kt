@@ -10,7 +10,7 @@ import com.renata.projetointegrador.R
 class MainActivity : AppCompatActivity() {
 
     private lateinit var rvGenre : RecyclerView
-
+    val renata = "Renata"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
