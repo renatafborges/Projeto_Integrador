@@ -31,4 +31,29 @@
         <item name="cornerSizeTopLeft">32dp</item>
         <item name="cornerSizeBottomLeft">32dp</item>
     </style>
+    <style name="system_falied">
+        <item name="android:layout_marginTop">@dimen/xlarge</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/failed</item>
+        <item name="android:textSize">@dimen/large</item>
+    </style>
+    <style name="system_falied_txt">
+        <item name="android:text">@string/try_again_msg</item>
+        <item name="android:textColor">@color/black_50_opacity</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/small</item>
+    </style>
+    <style name="try_again_style">
+        <item name="android:text">@string/try_again</item>
+        <item name="android:textSize">@dimen/medium</item>
+        <item name="android:textColor">@color/greenPrimaryColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="shapeableImageStyle" parent="">
+        <item name="cornerSizeBottomLeft">40dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
 </resources>

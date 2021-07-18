@@ -18,5 +18,6 @@
     <color name="movieInformation">#9A9BB2</color>
     <color name="smallGenreButton">#434670</color>
     <color name="movieTitleColor">#12153D</color>
+    <color name="black_50_opacity">#80000000</color>
 
 </resources>

@@ -4,6 +4,6 @@
     <dimen name="small">16sp</dimen>
     <dimen name="medium">24sp</dimen>
     <dimen name="large">32sp</dimen>
-    <dimen name="xlarge">sp</dimen>
+    <dimen name="xlarge">40sp</dimen>
     <dimen name="xxlarge">48sp</dimen>
 </resources>

@@ -20,7 +20,6 @@
             android:id="@+id/imgMovie"
             android:layout_width="260dp"
             android:layout_height="390dp"
-            android:src=""
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/small"
-        android:src="@drawable/ic_baseline_favorite_border_24"
+        android:src="@drawable/icon_heart_empty"
         app:layout_constraintBottom_toBottomOf="@+id/titleMovie"
         app:layout_constraintStart_toEndOf="@+id/titleMovie"
         app:layout_constraintTop_toTopOf="@+id/titleMovie" />
@@ -56,8 +55,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:src="@drawable/ic_baseline_favorite_24"
-        android:visibility="invisible"
+        android:src="@drawable/icon_heart"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/titleMovie"
         app:layout_constraintStart_toEndOf="@+id/titleMovie"
         app:layout_constraintTop_toTopOf="@+id/titleMovie" />
@@ -75,7 +74,7 @@
         android:id="@+id/imgStar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_baseline_star_24"
+        android:src="@drawable/icon_star"
         app:layout_constraintEnd_toEndOf="@+id/titleMovie"
         app:layout_constraintStart_toStartOf="@+id/titleMovie"
         app:layout_constraintTop_toBottomOf="@+id/titleMovie" />
